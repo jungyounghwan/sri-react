@@ -1,28 +1,26 @@
 module.exports = {
-    entry: './src/index.js',
-
-    output: {
-        path: __dirname + '/public/',
-        filename: 'bundle.js'
-    },
-
-    devServer: {
-        inline: true,
-        port: 7777,
-        contentBase: __dirname + '/public/'
-    },
-
+    entry: [
+        './src/index.js'
+    ],
     module: {
-        loaders: [
+        rules: [
             {
-                test: /\.js$/,
-                loader: 'babel-loader',
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                query: {
-                    cacheDirectory: true,
-                    presets: ['es2015', 'react']
-                }
+                use: ['babel-loader']
             }
         ]
+    },
+    resolve: {
+        extensions: ['*', '.js', '.jsx']
+    },
+    output: {
+        path: __dirname + '/dist',
+        publicPath: '/',
+        filename: 'bundle.js'
+    },
+    devServer: {
+        port: 7777,
+        contentBase: './dist'
     }
 };
