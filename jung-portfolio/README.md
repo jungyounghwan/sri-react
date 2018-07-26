@@ -5,7 +5,11 @@
  - 초기세팅 : https://velopert.com/814
  - 초기세팅(babel-loder) : http://pro-self-studier.tistory.com/19
 
-##### 1. layout
+##### 1-1. css-loader
+ - 초기세팅 : https://velopert.com/1555
+ 
+##### 1-2. style-loader
+ - 초기세팅 :  https://velopert.com/3447
 
 ##### 2. JSX
     return (
@@ -41,4 +45,7 @@
     )
 
 ##### 3. React Router
+ - 초기 세팅 : https://dobbit.github.io/redux/advanced/UsageWithReactRouter.html
+ - react-router v3 과 v4 차이 : https://blueshw.github.io/2017/06/22/static-routing-vs-dynamic-routing/
+ 
 ##### 4. Express

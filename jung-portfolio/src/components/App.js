@@ -1,16 +1,23 @@
 import React from 'react';
-import Navi from './layout/Navi';
-import Content from './layout/Content';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Header from './layout/Header';
+import Home from '../containers/Home';
+import Profile from '../containers/Profile';
+import Posts from '../containers/Posts';
 
 class App extends React.Component {
     render(){
-
         return (
-            <div>
-                <Navi />
-                <Content />
-            </div>
-        );
+            <Router>
+                <div className='container'>
+                    <Header/>
+                    <Route exact path="/" component={Home} />
+                    <Route path='/profile' component={Profile} />
+                    <Route path='/posts' component={Posts} />
+                </div>
+            </Router>
+        )
     }
 }
 
