@@ -4,7 +4,7 @@
 ##### 0. 초기설정
  - 초기세팅 : https://velopert.com/814
  - 초기세팅(babel-loder) : http://pro-self-studier.tistory.com/19
-
+ - 폴더구조 : https://d2.naver.com/helloworld/184813
 ##### 1-1. css-loader
  - 초기세팅 : https://velopert.com/1555
  
