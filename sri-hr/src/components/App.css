@@ -1,0 +1,11 @@
+.blind {position:absolute;width:1px;height:1px;clip:rect(1px,1px,1px,1px)}
+
+.nav-pills > li > a.active,
+.nav-pills > li > a:active,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+    color: #ffffff;
+    background-color: #337ab7;
+}
+
+.big_text {margin-top:3rem;font-size:7rem;text-align:center;}
