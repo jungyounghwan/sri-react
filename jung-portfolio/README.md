@@ -47,5 +47,5 @@
 ##### 3. React Router
  - 초기 세팅 : https://dobbit.github.io/redux/advanced/UsageWithReactRouter.html
  - react-router v3 과 v4 차이 : https://blueshw.github.io/2017/06/22/static-routing-vs-dynamic-routing/
- 
+ - activeClassName : https://blog.naver.com/donggyu_00/221323187230
 ##### 4. Express
